@@ -18,7 +18,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 					password: password
 				  };
 		
-				  const response = await fetch("http://127.0.0.1:5000/admin/users", {
+				  const response = await fetch("https://mi-proyecto-deployado-a9ht.onrender.com/admin/users", {
 					method: "POST",
 					headers: {
 					  "Content-Type": "application/json"
@@ -46,7 +46,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 					password: password
 				  };
 		
-				  const response = await fetch("http://127.0.0.1:5000/admin/login", {
+				  const response = await fetch("https://mi-proyecto-deployado-a9ht.onrender.com/admin/login", {
 					method: "POST",
 					headers: {
 					  "Content-Type": "application/json"
